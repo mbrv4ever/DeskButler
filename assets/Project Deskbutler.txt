@@ -1,0 +1,22 @@
+Project Deskbutler
+
+We gaan desktop app maken in Python.
+Ik heb alle Python libs al geïnstalleerd.
+
+ Die net als IncrediMail en bonzi buddy moet gaan werken, maar dan zonder virussen en spyware.
+Ik heb een butler afbeelding in SVG formaat.
+De app moet email kunnen controleren en openen in een eigen browser dus geen externe.
+En alle email functies hebben die elke email client heeft.
+Een herinnering systeem met een agenda. die ook waarschuw als er iets is.
+Hij moet online kunnen zoeken en dan de resultaat op zeggen en vragen of hij dit in de browser moet tonen.
+De toetsen combinatie shift + v moet een venster openen met een tekst vak en een knop voor vragen en een om te annuleren.
+In die zelfde zoek venster moet hij ook Windows programma's openen en het weer, nieuws en meer kunnen opzoeken en geven.
+Verder moet er ook een snel gids er in komen die een goede uitleg geeft over de app en wat het kan.
+Dus geen PDF of HTML bestand maar in een eigen venster.
+De app moet ook de native taal van de pc van de gebruiker overnemen.
+En zo ook de stem als alle teksten.
+Dus eigenlijk alles wat bonzi buddy kon maar dan met een email client zoals IncrediMail.
+Voor de stem gebruiken we deze:
+https://huggingface.co/openbmb/VoxCPM2
+
+En dan zien we wel wat er mogelijk nog meer in zou kunnen.
