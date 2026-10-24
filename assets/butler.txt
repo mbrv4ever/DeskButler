@@ -1,0 +1,116 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 1000" width="100%" height="100%">
+  <!-- Achtergrond cirkel voor diepte -->
+  <circle cx="400" cy="500" r="380" fill="#2c3e50" opacity="0.1" />
+
+  <!-- KAAL HOOFD & OREN -->
+  <path d="M 330 300 C 330 200, 470 200, 470 300 C 470 370, 330 370, 330 300 Z" fill="#fddcb4" />
+  <!-- Linker oor -->
+  <circle cx="325" cy="310" r="15" fill="#fca484" />
+  <circle cx="327" cy="310" r="8" fill="#fddcb4" />
+  <!-- Rechter oor -->
+  <circle cx="475" cy="310" r="15" fill="#fca484" />
+  <circle cx="473" cy="310" r="8" fill="#fddcb4" />
+
+  <!-- GRIJS HAAR (ZIJKANTEN) -->
+  <!-- Links -->
+  <path d="M 323 290 C 320 270, 335 250, 340 260 C 335 280, 330 300, 328 320 C 322 315, 322 300, 323 290 Z" fill="#dcdde1" />
+  <!-- Rechts -->
+  <path d="M 477 290 C 480 270, 465 250, 460 260 C 465 280, 470 300, 472 320 C 478 315, 478 300, 477 290 Z" fill="#dcdde1" />
+
+  <!-- GEZICHT (Ogen, Wenkbrauwen, Neus, Mond) -->
+  <!-- Wenkbrauwen (Gefronsd / Serieus) -->
+  <path d="M 350 275 Q 370 270 385 280" stroke="#7f8c8d" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 450 275 Q 430 270 415 280" stroke="#7f8c8d" stroke-width="4" stroke-linecap="round" fill="none" />
+  <!-- Ogen (Gesloten/Tevreden glimlach) -->
+  <path d="M 355 295 Q 370 290 385 295" stroke="#2c3e50" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M 445 295 Q 430 290 415 295" stroke="#2c3e50" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- Monocle (Rechteroog) -->
+  <circle cx="430" cy="295" r="16" stroke="#f1c40f" stroke-width="3" fill="rgba(255,255,255,0.3)" />
+  <path d="M 446 295 Q 465 310 465 330" stroke="#f1c40f" stroke-width="2" fill="none" />
+  <!-- Neus (Statig / Slank) -->
+  <path d="M 400 280 L 395 320 L 405 320" stroke="#fca484" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Mond (Subtiele, gereserveerde glimlach) -->
+  <path d="M 380 345 Q 400 350 420 345" stroke="#c0392b" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- Wang rimpels -->
+  <path d="M 345 320 Q 340 330 345 340" stroke="#fca484" stroke-width="2" fill="none" />
+  <path d="M 455 320 Q 460 330 455 340" stroke="#fca484" stroke-width="2" fill="none" />
+
+  <!-- PARAPLU / WANDELSTOK (In de rechterhand op de grond) -->
+  <rect x="545" y="420" width="10" height="480" fill="#4a3728" rx="5" />
+  <path d="M 530 425 C 530 390, 570 390, 570 420" stroke="#4a3728" stroke-width="12" stroke-linecap="round" fill="none" />
+  <path d="M 542 900 L 558 900 L 550 915 Z" fill="#7f8c8d" />
+
+  <!-- LICHAAM & KLEDING -->
+  <!-- Nek -->
+  <rect x="380" y="350" width="40" height="50" fill="#fddcb4" />
+  
+  <!-- Wit Overhemd & Boord -->
+  <polygon points="350,400 450,400 400,460" fill="#ffffff" />
+  <polygon points="360,400 385,400 400,430" fill="#ffffff" stroke="#dcdde1" stroke-width="1" />
+  <polygon points="440,400 415,400 400,430" fill="#ffffff" stroke="#dcdde1" stroke-width="1" />
+  
+  <!-- Zwarte Vlinderdas -->
+  <polygon points="380,410 400,420 380,430" fill="#111111" />
+  <polygon points="420,410 400,420 420,430" fill="#111111" />
+  <circle cx="400" cy="420" r="6" fill="#222222" />
+
+  <!-- Gilet (Grijs) -->
+  <polygon points="350,430 450,430 430,600 370,600" fill="#7f8c8d" />
+  <!-- Gilet knopen -->
+  <circle cx="400" cy="470" r="4" fill="#2c3e50" />
+  <circle cx="400" cy="500" r="4" fill="#2c3e50" />
+  <circle cx="400" cy="530" r="4" fill="#2c3e50" />
+  <circle cx="400" cy="560" r="4" fill="#2c3e50" />
+
+  <!-- Jas / Smoking (Zwart) -->
+  <!-- Panden achterkant / Schouders -->
+  <path d="M 350 400 C 300 420, 260 480, 260 580 L 320 580 L 340 800 L 370 800 L 370 600 Z" fill="#1e272e" />
+  <path d="M 450 400 C 500 420, 540 480, 540 580 L 480 580 L 460 800 L 430 800 L 430 600 Z" fill="#1e272e" />
+  <!-- Revers (Kraag omslag) -->
+  <polygon points="350,400 380,460 355,520 330,450" fill="#0f1418" />
+  <polygon points="450,400 420,460 445,520 470,450" fill="#0f1418" />
+
+  <!-- DIENBLAD & LINKERARM (Presenteren) -->
+  <!-- Linker bovenarm -->
+  <path d="M 275 430 Q 220 480, 190 530" stroke="#1e272e" stroke-width="38" stroke-linecap="round" fill="none" />
+  <!-- Linker onderarm (Omhoog gebogen richting dienblad) -->
+  <path d="M 190 530 Q 180 500, 210 470" stroke="#1e272e" stroke-width="34" stroke-linecap="round" fill="none" />
+  <!-- Witte manchet -->
+  <path d="M 210 470 L 220 460" stroke="#ffffff" stroke-width="36" stroke-linecap="round" fill="none" />
+  <!-- Hand (Witte handschoen) -->
+  <circle cx="225" cy="450" r="16" fill="#ffffff" />
+  <!-- Zilveren Dienblad -->
+  <ellipse cx="210" cy="430" rx="70" ry="12" fill="#b2bec3" stroke="#dfe6e9" stroke-width="3" />
+  <!-- Statige Handdoek over de arm -->
+  <path d="M 190 510 C 185 550, 175 620, 175 660 L 200 660 C 200 620, 205 550, 210 510 Z" fill="#ffffff" opacity="0.9" />
+  <path d="M 175 660 L 200 660" stroke="#b2bec3" stroke-width="2" />
+
+  <!-- RECHTERARM (Houdt paraplu vast) -->
+  <!-- Rechter bovenarm -->
+  <path d="M 525 430 Q 560 480, 560 540" stroke="#1e272e" stroke-width="38" stroke-linecap="round" fill="none" />
+  <!-- Rechter onderarm -->
+  <path d="M 560 540 Q 560 520, 550 470" stroke="#1e272e" stroke-width="34" stroke-linecap="round" fill="none" />
+  <!-- Witte manchet -->
+  <path d="M 550 470 L 550 460" stroke="#ffffff" stroke-width="36" stroke-linecap="round" fill="none" />
+  <!-- Hand (Witte handschoen sluit om het handvat) -->
+  <circle cx="550" cy="450" r="16" fill="#ffffff" />
+
+  <!-- PANTALON (Gestreepte broek) -->
+  <rect x="370" y="600" width="30" height="260" fill="#2c3e50" />
+  <rect x="400" y="600" width="30" height="260" fill="#2c3e50" />
+  <!-- Subtiele verticale strepen -->
+  <line x1="375" y1="600" x2="375" y2="860" stroke="#34495e" stroke-width="2" />
+  <line x1="385" y1="600" x2="385" y2="860" stroke="#34495e" stroke-width="2" />
+  <line x1="395" y1="600" x2="395" y2="860" stroke="#34495e" stroke-width="2" />
+  <line x1="405" y1="600" x2="405" y2="860" stroke="#34495e" stroke-width="2" />
+  <line x1="415" y1="600" x2="415" y2="860" stroke="#34495e" stroke-width="2" />
+  <line x1="425" y1="600" x2="425" y2="860" stroke="#34495e" stroke-width="2" />
+
+  <!-- SCHOENEN (Gepoetst zwart leer) -->
+  <!-- Linkerschoen -->
+  <path d="M 370 850 C 350 850, 330 870, 330 880 C 330 890, 360 890, 385 890 C 385 870, 380 850, 370 850 Z" fill="#0f1418" />
+  <ellipse cx="350" cy="885" rx="15" ry="5" fill="#57606f" opacity="0.3" /> <!-- Glans -->
+  <!-- Rechterschoen -->
+  <path d="M 430 850 C 450 850, 470 870, 470 880 C 470 890, 440 890, 415 890 C 415 870, 420 850, 430 850 Z" fill="#0f1418" />
+  <ellipse cx="450" cy="885" rx="15" ry="5" fill="#57606f" opacity="0.3" /> <!-- Glans -->
+</svg>
